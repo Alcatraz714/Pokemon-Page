@@ -1,0 +1,75 @@
+.App {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Bangers', cursive;
+  font-size: 30px;
+}
+.title {
+  background-color:rgb(0, 32, 214);
+  width: 100%;
+  height: 250px;
+  display:flex;
+  align-items: center;
+  color: aliceblue;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.title input{
+  width: 200px;
+  height: 40px;
+  border-radius: 7px;
+  border: 2px solid black;
+  font-size: 18px;
+  padding-left: 10px;
+  font-family: 'Bangers', cursive;
+  font-weight: bold;
+}
+.title button{
+  margin: 10px;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  padding-left: 10px;
+  background-color: rgb(0, 255, 85);
+  font-family: 'Bangers', cursive;
+  font-weight: bold;
+}
+.title button:hover{
+  cursor: pointer;
+}
+.Display{
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  align-items: center;
+  
+}
+.Display h3, h4{
+  margin: 5px;
+
+}
+.Display img{
+  width: 200px;
+  height: 200px;
+}
+.Card{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  align-items: center;
+  border: 5px solid gold;
+  border-style: groove;
+  border-radius: 25px;
+  padding: 20px;
+  background-image: linear-gradient(to bottom right, lightblue, white);
+}
+body{
+  margin: 0%;
+  padding: 0%;
+}

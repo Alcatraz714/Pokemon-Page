@@ -1,4 +1,5 @@
-# Getting Started with Create React App
+# Getting Started with Pokemon-page react app
+## Simple front end page with PokeApi 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
